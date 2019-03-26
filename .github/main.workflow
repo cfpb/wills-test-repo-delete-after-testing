@@ -4,7 +4,7 @@ workflow "Publish to PyPI-Test" {
 }
 
 action "Publish to PyPI" {
-  uses = "willbarton/pypi-publish-action@master"
+  uses = "cfpb/pypi-publish-action@master"
   secrets = ["TWINE_USERNAME", "TWINE_PASSWORD"]
   env = {
     LIVE_PYPI = "True"
