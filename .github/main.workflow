@@ -1,4 +1,4 @@
-workflow "Publish to PyPI-Test" {
+workflow "Publish" {
   on = "release"
   resolves = ["Publish to PyPI"]
 }
