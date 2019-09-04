@@ -10,6 +10,6 @@ setup(
     long_description='',
     long_description_content_type='text/markdown',
     license='CC0',
-    version='14',
+    version='15',
     packages=find_packages(),
 )
